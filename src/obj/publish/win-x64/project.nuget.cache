@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "vkJK3cMtQhE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\omerk\\source\\repos\\XasLauncher\\XasLauncher\\XasLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\omerk\\.nuget\\packages\\cmllib.core\\4.0.6\\cmllib.core.4.0.6.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\cmllib.core.commons\\4.0.0\\cmllib.core.commons.4.0.0.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\cmllib.core.installer.forge\\1.1.1\\cmllib.core.installer.forge.1.1.1.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\cmllib.core.installer.neoforge\\4.0.0\\cmllib.core.installer.neoforge.4.0.0.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\htmlagilitypack\\1.11.48\\htmlagilitypack.1.11.48.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\lzma-sdk\\19.0.0\\lzma-sdk.19.0.0.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.23\\microsoft.net.illink.tasks.8.0.23.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\omerk\\.nuget\\packages\\system.threading.tasks.dataflow\\8.0.1\\system.threading.tasks.dataflow.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

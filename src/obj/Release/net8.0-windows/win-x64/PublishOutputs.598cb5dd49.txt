@@ -1,0 +1,2 @@
+C:\Users\omerk\source\repos\XasLauncher\XasLauncher\bin\Release\net8.0-windows\publish\win-x64\XasLauncher.pdb
+C:\Users\omerk\source\repos\XasLauncher\XasLauncher\bin\Release\net8.0-windows\publish\win-x64\XasLauncher.exe
