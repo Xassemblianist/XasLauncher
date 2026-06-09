@@ -8,6 +8,7 @@ using System.Windows.Input;
 using CmlLib.Core;
 using CmlLib.Core.Auth;
 using CmlLib.Core.Installer.Forge;
+using CmlLib.Core.Installer.NeoForge;
 using CmlLib.Core.ProcessBuilder;
 
 namespace XasLauncher
@@ -92,15 +93,17 @@ namespace XasLauncher
 
             try
             {
-                if (loaderType == 1 || loaderType == 2)
+                if (loaderType == 1)
                 {
                     lblStatus.Text = "Mod yükleyici hazırlanıyor...";
                     var forgeInstaller = new ForgeInstaller(_launcher);
-
-                    // Tarayıcı açılmasını engellemek için sessiz kurulumu zorla
-                    // Not: Bazı v4 sürümlerinde bu otomatik gelir, ancak finalVersionId 
-                    // üzerinden kontrol etmek en garantisidir.
                     finalVersionId = await forgeInstaller.Install(selectedVersion);
+                }
+                else if (loaderType == 2)
+                {
+                    lblStatus.Text = "Mod yükleyici hazırlanıyor...";
+                    var neoForgeInstaller = new NeoForgeInstaller(_launcher);
+                    finalVersionId = await neoForgeInstaller.Install(selectedVersion);
                 }
 
                 var session = MSession.CreateOfflineSession(username);
